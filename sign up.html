@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/formstyle.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body id="signup">
+    <nav id="navbar1" class="bg-dark1">
+        <div class="logo">
+          <a href="#home"> <img src="img/logo.png" alt="logo"></a>
+        </div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="index.html">Programs</a></li>
+            <li><a href="index.html">Trainers</a></li>
+            <li><a href="index.html">Contact</a></li>
+            <li><a href="sign up.html">Register</a></li>
+            <li><a href="sign in.html">Log in</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <form class="form-horizontal" role="form">
+            <h2>Registration</h2>
+            <div class="form-group">
+                <label for="firstName" class="col-sm-3 control-label lebel">First Name</label>
+                <div class="col-sm-12">
+                    <input type="text" id="firstName" placeholder="First Name" class="form-control" autofocus>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="lastName" class="col-sm-3 control-label lebel">Last Name</label>
+                <div class="col-sm-12">
+                    <input type="text" id="lastName" placeholder="Last Name" class="form-control" autofocus>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email" class="col-sm-3 control-label lebel">Email* </label>
+                <div class="col-sm-12">
+                    <input type="email" id="email" placeholder="Email" class="form-control" name= "email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="password" class="col-sm-3 control-label lebel">Password*</label>
+                <div class="col-sm-12">
+                    <input type="password" id="password" placeholder="Password" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="password" class="col-sm-6 control-label lebel">Confirm Password*</label>
+                <div class="col-sm-12">
+                    <input type="password" id="password" placeholder="Password" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="birthDate" class="col-sm-6 control-label lebel">Date of Birth*</label>
+                <div class="col-sm-12">
+                    <input type="date" id="birthDate" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="phoneNumber" class="col-sm-6 control-label lebel">Phone number </label>
+                <div class="col-sm-12">
+                    <input type="phoneNumber" id="phoneNumber" placeholder="Phone number" class="form-control">
+                    <span class="help-block lebel1">Your phone number won't be disclosed anywhere </span>
+                </div>
+            </div>
+            <div class="form-group">
+                    <label for="Height" class="col-sm-3 control-label lebel">Height(m)* </label>
+                <div class="col-sm-12">
+                    <input type="number" id="height" placeholder="Please write your height in centimetres" class="form-control">
+                </div>
+            </div>
+             <div class="form-group">
+                    <label for="weight" class="col-sm-3 control-label lebel">Weight(lb)* </label>
+                <div class="col-sm-12">
+                    <input type="number" id="weight" placeholder="Please write your weight in kilograms" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-3 lebel">Gender</label>
+                <div class="col-sm-6">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <label class="radio-inline lebel">
+                                <input type="radio" id="femaleRadio" value="Female"> Female
+                            </label>
+                        </div>
+                        <div class="col-sm-6">
+                            <label class="radio-inline lebel">
+                                <input type="radio" id="maleRadio" value="Male"> Male
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- /.form-group -->
+            <div class="form-group">
+                <div class="col-sm-9 col-sm-offset-3">
+                    <span class="help-block lebel1">*Required fields</span>
+                </div>
+            </div>
+            <button type="submit" id="rbtn" class="btn btn-primary btn-block">Register</button>
+        </form> <!-- /form -->
+    </div>
+
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

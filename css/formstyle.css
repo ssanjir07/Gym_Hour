@@ -1,0 +1,92 @@
+#signup {
+    background: url('../img/h1_hero.png') fixed;
+   background-size: cover;
+}
+#signin {
+   background: url('../img/cta.jpg') fixed;
+   background-size: cover;
+}
+
+.container{
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+*[role="form"] {
+   max-width: 500px;
+   padding: 15px;
+   margin: 0 auto;
+   border-radius: 0.3em;
+   background-color: #f2f2f25d;
+}
+
+*[role="form"] h2 { 
+   font-family: 'Open Sans' , sans-serif;
+   font-size: 40px;
+   font-weight: 600;
+   color: #f3ca20;
+   margin-top: 5%;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+}
+
+.lebel {
+   color: #f3ca20;
+   font-weight: 700;
+}
+.lebel1 {
+   color: #f3ca20;
+   font-weight: 300;
+}
+
+#rbtn {
+   background-color: #f3ca20;
+   color: black;
+   padding: 0.20rem 3rem;
+   border-radius: 5px;
+   font-weight: 700;
+   font-size: x-large;
+   
+}
+#rbtn:hover{
+   background-color: #f4f4f4;
+   color: #15171a;
+}
+
+.bg-dark1{
+   background-color: #000000;
+   color: white;
+   
+}
+
+#navbar1{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: .6rem;
+   position: sticky;
+   z-index: 1;
+   top: 0;
+}
+
+#navbar1 .logo img{
+   width: 80px;
+   margin-left: 1rem;
+}
+
+#navbar1 ul {
+   list-style: none;
+   display: flex;
+}
+
+#navbar1 ul li a {
+   color: white;
+   padding: 1rem;
+}
+
+#navbar1 ul li a:hover {
+   background-color: #f3ca20;
+   color: #15171a;
+   border-radius: 3px;
+}
